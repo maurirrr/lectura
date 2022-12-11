@@ -1,0 +1,7 @@
+echo "# lectura" >> README.md
+git init
+git añadir README.md
+git commit -m "primer compromiso"
+rama git -M principal
+git remote add origin https://github.com/maurirrr/lectura.git
+git push -u origen principal
